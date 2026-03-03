@@ -52,6 +52,26 @@ nav {
     z-index: 1000;
 }
 
+/* Hamburger toggle – hidden by default (desktop) */
+.nav-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 20px;
+}
+.hamburger span {
+    display: block;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+}
+
 /* make sure the link container can wrap on small screens */
 nav .navbar {
     display: flex;
@@ -181,8 +201,6 @@ section {
     transform:translateY(-10px);
     transition: 0.3s ease;
 }
-
-
 
 
 /* ================== Responsive ================== */
